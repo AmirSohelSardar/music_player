@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuneHub - Made by A. Sohel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body id="home-page">
+    <header class="header">
+        <div class="logo">
+            <img src="images/logo.png" alt="TuneHub Logo">
+
+            <h1>TuneHub</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Experience Music Like Never Before</h2>
+            <p>Dive into a world of melodies with TuneHub, crafted for music lovers like you to stream, vibe, and enjoy effortlessly.</p>
+        </section>
+
+        <div class="player">
+            <div class="cover">
+                <img src="images/cover1.jpg" alt="Album Cover" id="album-cover">
+            </div>
+            <h3 id="song-title">Song Title</h3>
+            <p id="artist-name">Artist Name</p>
+            <div class="controls">
+                <button id="prev-btn">⏮</button>
+                <button id="play-btn">▶️</button>
+                <button id="next-btn">⏭</button>
+            </div>
+            <input type="range" id="seek-bar" value="0">
+            <div id="time-display">
+                <span id="current-time">0:00</span> / <span id="duration">0:00</span>
+            </div>
+        </div>
+
+        <div class="song-list">
+            <h3>Song List</h3>
+            <ul id="song-list"></ul>
+        </div>
+        
+        
+    </main>
+
+    <footer>
+        <p>© 2024 TuneHub | Designed by Amir Sohel❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
