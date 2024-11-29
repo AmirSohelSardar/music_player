@@ -10,6 +10,9 @@ const songs = [
     { title: "Phir Aur Kya Chahiye", artist: "Arijit Singh", src: "songs/Phir Aur Kya Chahiye.mp3", cover: "images/Phir Aur Kya Chahiye.jpg" },
     { title: "Raat Kali Ek Khwaab Mein Aai", artist: "Sanam Puri", src: "songs/Raat Kali Ek Khwaab Mein Aai.mp3", cover: "images/Raat Kali Ek Khwaab Mein Aai.jpg" },
     { title: "Sach Keh Raha Hai", artist: "B PRAAK", src: "songs/Sach Keh Raha Hai.mp3", cover: "images/Sach Keh Raha Hai.jpg" },
+    { title: "Teri Meri Gallan", artist: "Jubin Nautiyal", src: "songs/Teri Meri Gallan.mp3", cover: "images/Teri Meri Gallan.jpg" },
+    { title: "Tujh Mein Rab Dikhta Hai", artist: "Roop Kumar Rathod", src: "songs/Tujh Mein Rab Dikhta Hai.mp3", cover: "images/Tujh Mein Rab Dikhta Hai.jpg" },
+    { title: "Tum Hi Ho", artist: "Arijit Singh", src: "songs/Tum Hi Ho.mp3", cover: "images/Tum Hi Ho.jpg" },
 ];
 
 let currentSongIndex = 0;
